@@ -1,0 +1,38 @@
+{
+  "name": "shopping_back",
+  "version": "1.0.0",
+  "description": "A Node JS application for a cake shop Where all cakes are to be displayed",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev":"nodemon src/app.ts",
+    "build": "tsc -p ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Debanil1996/Shopping_back.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Debanil1996/Shopping_back/issues"
+  },
+  "homepage": "https://github.com/Debanil1996/Shopping_back#readme",
+  "dependencies": {
+    "@types/body-parser": "^1.19.0",
+    "@types/cors": "^2.8.10",
+    "@types/express": "^4.17.12",
+    "@types/mysql": "^2.15.18",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "nodemon": "^2.0.7"
+  }
+}
